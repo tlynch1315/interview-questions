@@ -13,7 +13,7 @@ jobs:
           command: pip3 install -r requirements.txt
       - python/save-cache
       - run:
-          command: py.test
+          command: py.test-3
           name: Test
 
 workflows:
